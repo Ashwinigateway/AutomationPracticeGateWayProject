@@ -18,7 +18,7 @@ public class Scenario1 extends TestBase {
 
     @Test
     public void productBuy() {
-        Log.startTestCase("login1");
+        Log.startTestCase("login");
 
         HomePage homePage = new HomePage(driver);
         String accountName = homePage.login(CONFIG.getProperty("username"), CONFIG.getProperty("password"));
